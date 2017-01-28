@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mukhtar.exapple.com.task1_secondsemester.MainActivity">
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/l1"
+            android:name="mukhtar.exapple.com.task1_secondsemester.Fragment1"
+            tools:layout="@layout/fragment_listview1"/>
+        <fragment
+            android:layout_width="match_parent"
+            android:id="@+id/l2"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:name="mukhtar.exapple.com.task1_secondsemester.Fragment2"
+            tools:layout="@layout/fragment_list_view2"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>
